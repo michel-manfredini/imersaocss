@@ -1,0 +1,37 @@
+body {
+    background-image: url('https://cdn.pixabay.com/photo/2017/08/22/12/46/sky-2668838_960_720.jpg');
+    background-size: auto 100vh;
+    font-family: Arial;
+    height: 100vh;
+  }
+  
+  .menu {
+    background-color: white;
+  }
+  
+  .menu ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .menu li {
+    list-style: none;
+  }
+  
+  a {
+    color: teal;
+    text-decoration: none;
+  }
+  
+  a:hover{
+    text-decoration:underline;
+  }
+  
+  .site-title, .site-subtitle {
+    color: whitesmoke;
+    text-align: center;  
+  }
+  
+  .site-subtitle {
+    font-style: italic;  
+  }
